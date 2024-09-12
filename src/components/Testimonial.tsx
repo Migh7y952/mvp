@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation } from 'swiper/modules';
 import { Pagination } from 'swiper/modules';
 import Avatar1 from '../assets/avatar1.svg';
 import Avatar2 from '../assets/avatar2.svg';
