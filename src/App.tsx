@@ -1,14 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Layout from './layouts/Layout';
-import DashboardLayout from './layouts/DashboardLayout';
-import Home from './pages/Home';
-import About from './pages/About';
-import Works from './pages/Works';
-import SignUp from './pages/SignUp';
-import Dashboard from './pages/Dashboard';
-import Profile from './pages/Profile';
-import Settings from './pages/Settings';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Layout from "./layouts/Layout";
+import DashboardLayout from "./layouts/DashboardLayout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Works from "./pages/Works";
+import SignUp from "./pages/SignUp";
+import Dashboard from "./pages/Dashboard";
+import Profile from "./pages/Profile";
+import Settings from "./pages/Settings";
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/works" element={<Works />} />
         </Route>
-        
+
         {/* Signup route without Layout */}
         <Route path="/signup" element={<SignUp />} />
 
