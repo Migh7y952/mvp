@@ -88,14 +88,14 @@ const About = () => {
             </div>
           </div>
 
-          {/* Nice Lady */}
+          {/* Seamus */}
           <div className="relative bg-white shadow-lg p-6 rounded-lg mt-24 md:mt-0">
             <div
               className="absolute w-32 h-32 -top-16 left-1/2 transform -translate-x-1/2 bg-center bg-cover rounded-full"
               style={{ backgroundImage: `url(${Beto})` }}
             ></div>
             <div className="mt-20">
-              <h3 className="text-xl font-semibold text-center">Nice Lady</h3>
+              <h3 className="text-xl font-semibold text-center">Seamus</h3>
               <p className="text-center text-sm text-gray-600">Marketing</p>
               <p className="mt-4 text-gray-700 text-center">
                 Nice leads our marketing efforts, creating strategies that
