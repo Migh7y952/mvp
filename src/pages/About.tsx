@@ -1,5 +1,5 @@
 import Company from "../assets/company.jpg";
-import Beto from "../assets/beto.JPG";
+import Beto from "../assets/beto.jpeg";
 import Overview from "../assets/overview.jpg";
 
 const About = () => {
